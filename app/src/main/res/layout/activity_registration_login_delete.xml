@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parent"
+    tools:context="com.example.kimayadesai.portal.RegistrationLoginDeleteUser">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:id="@+id/linearlay"
+      android:gravity="center"
+
+      android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageView"
+
+        android:layout_width="137dp"
+        android:layout_height="116dp"
+
+        android:contentDescription="@string/sdsulogo"
+        android:src="@drawable/sdsulogo"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+  </LinearLayout>
+
+    <EditText
+        android:id="@+id/firstNameTxt"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="35dp"
+        android:hint="@string/firstName"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:inputType="textPersonName"
+        android:labelFor="@+id/firstNameTxt"
+        android:layout_below="@+id/linearlay"
+       />
+
+
+    <EditText
+        android:id="@+id/lastNameTxt"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="42dp"
+
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/lastName"
+        android:inputType="textPersonName"
+        android:labelFor="@+id/lastNameTxt"
+
+        android:layout_below="@+id/firstNameTxt"
+
+       />
+
+
+    <EditText
+        android:id="@+id/redIDTxt"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="42dp"
+
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/redID"
+        android:inputType="numberDecimal"
+
+        android:labelFor="@+id/redIDTxt"
+
+        android:layout_below="@+id/lastNameTxt"
+
+
+        />
+
+  <EditText
+      android:id="@+id/passwordTxt"
+      android:layout_width="300dp"
+      android:layout_height="40dp"
+
+      android:layout_alignEnd="@+id/redIDTxt"
+      android:layout_alignStart="@+id/redIDTxt"
+      android:layout_below="@+id/redIDTxt"
+      android:layout_marginTop="20dp"
+
+      android:hint="@string/password"
+      android:inputType="textPassword"
+      android:labelFor="@+id/passwordTxt" />
+
+    <EditText
+        android:id="@+id/emailTxt"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="42dp"
+
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+
+
+        android:labelFor="@+id/emailTxt"
+        android:layout_below="@+id/passwordTxt"
+         />
+
+    <Button
+        android:id="@+id/SignUpButton"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/signUp"
+        android:background="@drawable/border"
+        android:layout_marginStart="77dp"
+        android:layout_below="@+id/emailTxt"
+        />
+
+
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="@string/loginButton"
+        android:background="@drawable/border"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/emailTxt"
+        android:layout_toEndOf="@id/SignUpButton"
+       />
+
+
+</RelativeLayout>

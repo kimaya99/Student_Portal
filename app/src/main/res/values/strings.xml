@@ -1,0 +1,49 @@
+<resources>
+
+    <string-array name="level">
+        <item>lower</item>
+        <item>upper</item>
+        <item>graduate</item>
+    </string-array>
+
+    <string name="app_name">Portal</string>
+    <string name="signUp">Sign Up</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="redID">Red ID</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="textview" />
+    <string name="DropClass">Drop Class</string>
+    <string name="RegisterClass">Register Class</string>
+    <string name="Waitlist">Waitlisted Classes</string>
+    <string name="RegisteredClass">Registered Classes</string>
+    <string name="button">Remove From Waitlist</string>
+    <string name="AddToWaitlist">Add to Waitlist</string>
+    <string name="AddWaitlist">Add Class</string>
+    <string name="WaitlistClass">Drop Class</string>
+    <string name="waitlistClass">Waitlist Class</string>
+    <string name="loginButton">Login</string>
+    <string name="title_activity_filter_tab">FIlterTab</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_filter_tabber">FilterTabber</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="delete_user">Delete User</string>
+    <string name="sdsulogo">sdsulogo</string>
+    <string name="time">Time</string>
+    <string name="choose_subjects">Choose Subjects</string>
+    <string name="level">Level</string>
+    <string name="filter">Filter</string>
+    <string name="major">Major</string>
+    <string name="apply">Apply</string>
+    <string name="todo">TODO</string>
+    <string name="course_details">Course Details</string>
+    <string name="reset_classes">Reset classes</string>
+    <string name="select_the_courses_to_drop">Select the courses to drop</string>
+    <string name="drop">Drop</string>
+
+
+
+</resources>
